@@ -1,0 +1,12 @@
+{
+  "name": "3j_gb_pwiii_2024_introducaoangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngi": "npm i -g @angular/cli"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
