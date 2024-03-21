@@ -1,0 +1,62 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "3j_gb_pwiii_2024_mymovies",
+    "dateExported": "2024-03-19T23:46:48.937Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "84bd502f-575a-46ba-ab6d-9d2e4aa69321",
+            "colId": "3347d05f-da84-42b5-9587-a74970b31a1f",
+            "containerId": "",
+            "name": "Buscar Filmes",
+            "url": "https://api.themoviedb.org/3/discover/movie?language=pt-BR&adult=false",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-19T23:15:15.974Z",
+            "modified": "2024-03-19T23:26:13.501Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "language",
+                    "value": "pt-BR",
+                    "isPath": false
+                },
+                {
+                    "name": "adult",
+                    "value": "false",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNWFjMjJmN2QxYTcyOWUyM2UyOGRiZDU2MTMwYWJhNCIsInN1YiI6IjY1ZjhjZWJkNGI5YmFlMDE2MDdkODI0MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5FtteyJJVJRVuhVVr120v4zRlf_cJvJtNSENbP8Gz_s"
+            },
+            "tests": []
+        },
+        {
+            "_id": "06047aa2-d500-4744-9e77-0d1ada0de820",
+            "colId": "3347d05f-da84-42b5-9587-a74970b31a1f",
+            "containerId": "",
+            "name": "Buscar Generos",
+            "url": "https://api.themoviedb.org/3/genre/movie/list?language=pt-BR",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-19T23:27:36.095Z",
+            "modified": "2024-03-19T23:29:25.388Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "language",
+                    "value": "pt-BR",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNWFjMjJmN2QxYTcyOWUyM2UyOGRiZDU2MTMwYWJhNCIsInN1YiI6IjY1ZjhjZWJkNGI5YmFlMDE2MDdkODI0MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5FtteyJJVJRVuhVVr120v4zRlf_cJvJtNSENbP8Gz_s"
+            },
+            "tests": []
+        }
+    ]
+}
