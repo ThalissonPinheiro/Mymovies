@@ -1,4 +1,7 @@
 <div *ngFor="let m of MOVIES">
     <span> {{ m.title }} </span>
-    <app-card></app-card>
+    <app-card
+    [movieName]="m.title"
+  ></app-card>
+
 </div>
