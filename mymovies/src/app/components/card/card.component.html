@@ -1,8 +1,8 @@
-<div class="card" style="width: 18rem;">
+<div class="container teste" style="width: 17rem;">
+  <a [routerLink]="['/details', movieName]">
+  <h4 class="title">{{ movieName }}</h4>
+</a>
+  <a [routerLink]="['/details', movieName]">
     <img src="{{ movieImg }}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">{{ movieName }} </h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a [routerLink]="['/details', movieName]" class="btn btn-primary">Go somewhere</a>
-    </div>
-  </div>
+  </a>
+</div>
