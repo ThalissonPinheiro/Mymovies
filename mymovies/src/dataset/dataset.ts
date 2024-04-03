@@ -1,546 +1,540 @@
 const MOVIES_CARDS = {
-    "page": 1,
-    "results": [
-      {
-        "id": 1096197,
-        "original_title": "No Way Up",
-        "poster_path": "/ktxq0LYgl41I2DUn49TYIaS9dZR.jpg",
-        "release_date": "2024-01-18",
-        "title": "Desespero Profundo",
-      },
-      {
-        "id": 983526,
-        "original_title": "Leave",
-        "poster_path": "/908fS4q4oxEot5SgDDcwFnKMNxk.jpg",
-        "release_date": "2022-10-28",
-        "title": "Pacto com o demônio: Não diga que ele não te avisou",
-      },
-      {
-        "id": 1211483,
-        "original_title": "Skal - Fight for Survival",
-        "poster_path": "/1On8iF3AsFIbpyfZg1xiGWMAFBn.jpg",
-        "release_date": "2023-11-24",
-        "title": "Skal - Fight for Survival",
-      },
-      {
-        "id": 714567,
-        "original_title": "#хочувигру",
-        "poster_path": "/wNQuRpVSETj15ht8knrTZgEOoTn.jpg",
-        "release_date": "2021-10-07",
-        "title": "#хочувигру",
-      },
-      {
-        "id": 1028703,
-        "original_title": "The OctoGames",
-        "poster_path": "/qGz5rffXhegQH5PGUDiObqoOt06.jpg",
-        "release_date": "2022-10-07",
-        "title": "The OctoGames",
-      },
-      {
-        "id": 1058078,
-        "original_title": "Karusell",
-        "poster_path": "/iZDgt2I7Yf1XO0gp7rS3GCQjwbP.jpg",
-        "release_date": "2023-10-20",
-        "title": "Karusell",
-      },
-      {
-        "id": 940721,
-        "original_title": "ゴジラ-1.0",
-        "poster_path": "/iXrCBynsyRGbOtoBeWjt1bRINuA.jpg",
-        "release_date": "2023-11-03",
-        "title": "Godzilla Minus One",
-      },
-      {
-        "id": 854188,
-        "original_title": "The Kindred",
-        "poster_path": "/99PE8haWB7nLky627wJBsWn2awJ.jpg",
-        "release_date": "2021-12-28",
-        "title": "The Kindred",
-      },
-      {
-        "id": 838209,
-        "original_title": "파묘",
-        "poster_path": "/aJLOmEwCLJIznN96m3t9IMz12or.jpg",
-        "release_date": "2024-02-22",
-        "title": "Exhuma",
-      },
-      {
-        "id": 949697,
-        "original_title": "The One Hundred",
-        "poster_path": "/grS4g94cGJ6DeI2DZpi37uJhucY.jpg",
-        "release_date": "2022-10-06",
-        "title": "The One Hundred",
-      },
-      {
-        "id": 1207413,
-        "original_title": "Dark Parasite",
-        "poster_path": "/hmfVO0q2LCsu2sTOe4KjH1aU5tG.jpg",
-        "release_date": "2023-10-25",
-        "title": "Dark Parasite",
-      },
-      {
-        "id": 1196646,
-        "original_title": "Camp Pleasant Lake",
-        "poster_path": "/vO4ok0SkjbTfLCICxx0uMzOBoEJ.jpg",
-        "release_date": "2024-02-27",
-        "title": "Camp Pleasant Lake",
-      },
-      {
-        "id": 615656,
-        "original_title": "Meg 2: The Trench",
-        "poster_path": "/klGKGITBYYyTiHrph1VDSgGULOR.jpg",
-        "release_date": "2023-08-02",
-        "title": "Megatubarão 2",
-      },
-      {
-        "id": 823491,
-        "original_title": "Out of Darkness",
-        "poster_path": "/fRT4GwQygR2ejgLpo8orADfO0Xm.jpg",
-        "release_date": "2024-02-09",
-        "title": "Out of Darkness",
-      },
-      {
-        "id": 880100,
-        "original_title": "Fear",
-        "poster_path": "/asCLy4s7HYP3zSRlLP4Qgme5L0A.jpg",
-        "release_date": "2023-01-27",
-        "title": "Fear",
-      },
-      {
-        "id": 968051,
-        "original_title": "The Nun II",
-        "poster_path": "/omV2IW2OlFTSw6Hih13hz6lFdvP.jpg",
-        "release_date": "2023-09-06",
-        "title": "A Freira 2",
-      },
-      {
-        "id": 1161663,
-        "original_title": "Ghost Project",
-        "poster_path": "/5OnTlcjY4e0WhWqTOuGFYXmkFKJ.jpg",
-        "release_date": "2023-08-07",
-        "title": "Projeto Fantasma",
-      },
-      {
-        "id": 507089,
-        "original_title": "Five Nights at Freddy's",
-        "poster_path": "/1yUbmAiw2cUSpyXNIaiST7JzCtG.jpg",
-        "release_date": "2023-10-25",
-        "title": "Five Nights at Freddy's - O Pesadelo Sem Fim",
-      },
-      {
-        "id": 1125311,
-        "original_title": "Imaginary",
-        "poster_path": "/vbgI9lYJPtYrbPdwjtyuN2wUBKJ.jpg",
-        "release_date": "2024-03-06",
-        "title": "Imaginário: Brinquedo Diabólico",
+  "page": 1,
+  "results": [
+    {
+      "id": 1011985,
+      "original_title": "Kung Fu Panda 4",
+      "poster_path": "https://image.tmdb.org/t/p/original/aNK6MA5EApIo0UJE7ZWSYcZBJKy.jpg",
+      "release_date": "2024-03-02",
+      "title": "Kung Fu Panda 4",
+    },
+    {
+      "id": 787699,
+      "original_title": "Wonka",
+      "poster_path": "https://image.tmdb.org/t/p/original/uQWEomz2wLoijrvoFaJt2gUMXRu.jpg",
+      "release_date": "2023-12-06",
+      "title": "Wonka",
+    },
+    {
+      "id": 967847,
+      "original_title": "Ghostbusters: Frozen Empire",
+      "poster_path": "https://image.tmdb.org/t/p/original/k7tbRCAsDZuefyL632iwMmIAlpw.jpg",
+      "release_date": "2024-03-20",
+      "title": "Ghostbusters: Apocalipse de Gelo",
+    },
+    {
+      "id": 502356,
+      "original_title": "The Super Mario Bros. Movie",
+      "poster_path": "https://image.tmdb.org/t/p/original/ktU3MIeZtuEVRlMftgp0HMX2WR7.jpg",
+      "release_date": "2023-04-05",
+      "title": "Super Mario Bros. O Filme",
+    },
+    {
+      "id": 346698,
+      "original_title": "Barbie",
+      "poster_path": "https://image.tmdb.org/t/p/original/yRRuLt7sMBEQkHsd1S3KaaofZn7.jpg",
+      "release_date": "2023-07-19",
+      "title": "Barbie",
+    },
+    {
+      "id": 315162,
+      "original_title": "Puss in Boots: The Last Wish",
+      "poster_path": "https://image.tmdb.org/t/p/original/atJxZfCaQ7kXRFSfbm8cqAKkns7.jpg",
+      "release_date": "2022-12-07",
+      "title": "Gato de Botas 2: O Último Pedido",
+    },
+    {
+      "id": 1075794,
+      "original_title": "Leo",
+      "poster_path": "https://image.tmdb.org/t/p/original/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
+      "release_date": "2023-11-17",
+      "title": "Leo",
+    },
+    {
+      "id": 293660,
+      "original_title": "Deadpool",
+      "poster_path": "https://image.tmdb.org/t/p/original/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg",
+      "release_date": "2016-02-09",
+      "title": "Deadpool",
+    },
+    {
+      "id": 808,
+      "original_title": "Shrek",
+      "poster_path": "https://image.tmdb.org/t/p/original/dyhaB19AICF7TO7CK2aD6KfymnQ.jpg",
+      "release_date": "2001-05-18",
+      "title": "Shrek",
+    },
+    {
+      "id": 106646,
+      "original_title": "The Wolf of Wall Street",
+      "poster_path": "https://image.tmdb.org/t/p/original/esJTXTdj4JZDyP5LUI1Fq3kyNda.jpg",
+      "release_date": "2013-12-25",
+      "title": "O Lobo de Wall Street",
+    },
+    {
+      "id": 49013,
+      "original_title": "Cars 2",
+      "poster_path": "https://image.tmdb.org/t/p/original/fIKaabvE40T39nOIngcZPcPJeYe.jpg",
+      "release_date": "2011-06-11",
+      "title": "Carros 2",
+    },
+    {
+      "id": 533535,
+      "original_title": "Deadpool & Wolverine",
+      "poster_path": "https://image.tmdb.org/t/p/original/xq4v7JE8niZ75OYYPDGNn6Gzpyt.jpg",
+      "release_date": "2024-07-24",
+      "title": "Deadpool & Wolverine",
+    },
+    {
+      "id": 9473,
+      "original_title": "South Park: Bigger, Longer & Uncut",
+      "poster_path": "https://image.tmdb.org/t/p/original/16ECNyTfEOfE49gFdrutZfGFd9x.jpg",
+      "release_date": "1999-06-30",
+      "title": "South Park: Maior, Melhor e Sem Cortes",
+    },
+    {
+      "id": 9339,
+      "original_title": "Click",
+      "poster_path": "https://image.tmdb.org/t/p/original/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+      "release_date": "2006-06-23",
+      "title": "Click",
+    },
+    {
+      "id": 109418,
+      "original_title": "Grown Ups 2",
+      "poster_path": "https://image.tmdb.org/t/p/original/vaXiEVLD0fGSMU801Zftw1csPPm.jpg",
+      "release_date": "2013-07-11",
+      "title": "Gente Grande 2",
+    },
+    {
+      "id": 718930,
+      "original_title": "Bullet Train",
+      "poster_path": "https://image.tmdb.org/t/p/original/77zENVKgbc4bhmlLfHRUbVZ99N5.jpg",
+      "release_date": "2022-08-03",
+      "title": "Trem-Bala",
+    },
+    {
+      "id": 12153,
+      "original_title": "White Chicks",
+      "poster_path": "https://image.tmdb.org/t/p/original/aJZOcorpgloDLkPP6ED0t9sXjNu.jpg",
+      "release_date": "2004-06-23",
+      "title": "As Branquelas",
+    },
+    {
+      "id": 18095,
+      "original_title": "ドラゴンボールＧＴ 悟空外伝！ 勇気の証しは四星球",
+      "poster_path": "https://image.tmdb.org/t/p/original/2u09FiAuyMdS6EzOi7FH0ULciys.jpg",
+      "release_date": "1997-03-26",
+      "title": "Dragon Ball GT: O Legado de um Herói",
+    },
+    {
+      "id": 9737,
+      "original_title": "Bad Boys",
+      "poster_path": "https://image.tmdb.org/t/p/original/sgOKUBTjMOdmgdtCQ50E1R5UaaF.jpg",
+      "release_date": "1995-04-07",
+      "title": "Os Bad Boys",
+    },
 
-      },
-      {
-        "id": 138843,
-        "original_title": "The Conjuring",
-        "poster_path": "/1NxHKZW5DPbUFtbF3MxbdSyxRqU.jpg",
-        "release_date": "2013-07-18",
-        "title": "Invocação do Mal",
-       
-      }
-    ],
-    "total_pages": 2414,
-    "total_results": 48276
-  };
+  ]
+};
 
 const MOVIES_DETAILS = {
-    "page": 1,
-    "results": [
-      {
-        "adult": false,
-        "backdrop_path": "/mDeUmPe4MF35WWlAqj4QFX5UauJ.jpg",
-        "genre_ids": [
-          28,
-          27,
-          53
-        ],
-        "id": 1096197,
-        "original_language": "pt",
-        "original_title": "No Way Up",
-        "overview": "Um grupo de desconhecidos acabam no meio do Oceano Pacífico depois de um acidente aéreo. Presos em uma bolsa de ar, eles devem trabalhar juntos para enfrentar os perigos que os cercam antes que o oxigênio acabe.",
-        "popularity": 1077.494,
-        "poster_path": "/ktxq0LYgl41I2DUn49TYIaS9dZR.jpg",
-        "release_date": "2024-01-18",
-        "title": "Desespero Profundo",
-        "video": false,
-        "vote_average": 6.137,
-        "vote_count": 260
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/elH2ZWRHOKpjUNHROvpTCZIvuO7.jpg",
-        "genre_ids": [
-          27,
-          53
-        ],
-        "id": 983526,
-        "original_language": "no",
-        "original_title": "Leave",
-        "overview": "Uma jovem tenta encontrar suas origens depois de ter sido abandonada quando criança em um cemitério, envolta em um pano com símbolos satânicos, mas à medida que se aproxima das respostas, um espírito malévolo lhe diz para ir embora.",
-        "popularity": 423.564,
-        "poster_path": "/908fS4q4oxEot5SgDDcwFnKMNxk.jpg",
-        "release_date": "2022-10-28",
-        "title": "Pacto com o demônio: Não diga que ele não te avisou",
-        "video": false,
-        "vote_average": 5.89,
-        "vote_count": 41
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/s9YTxwaByYeoSqugYjJJtZjMRAG.jpg",
-        "genre_ids": [
-          28,
-          27,
-          35,
-          53
-        ],
-        "id": 1211483,
-        "original_language": "en",
-        "original_title": "Skal - Fight for Survival",
-        "overview": "Meu nome é Arthur, uma celebridade da Internet que acabou de ultrapassar a marca de 3 milhões de seguidores. Fiz uma festa épica pra comemorar, mas o apocalipse resolveu acontecer  justo hoje. O que deveria ser uma festa perfeita se transformou em uma luta pela sobrevivência.",
-        "popularity": 378.9,
-        "poster_path": "/1On8iF3AsFIbpyfZg1xiGWMAFBn.jpg",
-        "release_date": "2023-11-24",
-        "title": "Skal - Fight for Survival",
-        "video": false,
-        "vote_average": 5.509,
-        "vote_count": 53
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/sKdDC38FHuPvEsRgIzMEQE6ydol.jpg",
-        "genre_ids": [
-          53,
-          27,
-          18
-        ],
-        "id": 714567,
-        "original_language": "ru",
-        "original_title": "#хочувигру",
-        "overview": "",
-        "popularity": 304.932,
-        "poster_path": "/wNQuRpVSETj15ht8knrTZgEOoTn.jpg",
-        "release_date": "2021-10-07",
-        "title": "#хочувигру",
-        "video": false,
-        "vote_average": 6.46,
-        "vote_count": 25
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/ruKNVJFViAyR4jguVboFXTskMOe.jpg",
-        "genre_ids": [
-          53,
-          28,
-          27
-        ],
-        "id": 1028703,
-        "original_language": "en",
-        "original_title": "The OctoGames",
-        "overview": "",
-        "popularity": 298.247,
-        "poster_path": "/qGz5rffXhegQH5PGUDiObqoOt06.jpg",
-        "release_date": "2022-10-07",
-        "title": "The OctoGames",
-        "video": false,
-        "vote_average": 5.634,
-        "vote_count": 97
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/5lhkwyuxSyElspMjAVZPUFg20b3.jpg",
-        "genre_ids": [
-          27
-        ],
-        "id": 1058078,
-        "original_language": "sv",
-        "original_title": "Karusell",
-        "overview": "",
-        "popularity": 263.793,
-        "poster_path": "/iZDgt2I7Yf1XO0gp7rS3GCQjwbP.jpg",
-        "release_date": "2023-10-20",
-        "title": "Karusell",
-        "video": false,
-        "vote_average": 5.885,
-        "vote_count": 13
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/88jdqvwNV6uJx8Y9V4zvoN30MuY.jpg",
-        "genre_ids": [
-          878,
-          27,
-          28
-        ],
-        "id": 940721,
-        "original_language": "ja",
-        "original_title": "ゴジラ-1.0",
-        "overview": "Em um Japão social e economicamente devastado após o término da Segunda Guerra Mundial, a situação chega a um nível ainda mais crítico quando uma gigantesca e misteriosa criatura surge do mar para assolar o país.",
-        "popularity": 259.54,
-        "poster_path": "/iXrCBynsyRGbOtoBeWjt1bRINuA.jpg",
-        "release_date": "2023-11-03",
-        "title": "Godzilla Minus One",
-        "video": false,
-        "vote_average": 7.855,
-        "vote_count": 447
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/xHd6rARprd4woZinkziIntiTSZD.jpg",
-        "genre_ids": [
-          27
-        ],
-        "id": 854188,
-        "original_language": "en",
-        "original_title": "The Kindred",
-        "overview": "Uma mulher que sofre de amnésia reconstrói os acontecimentos que levaram ao suicídio de seu pai, depois é assombrada por fantasmas de crianças que ela suspeita terem sido mortas por ele.",
-        "popularity": 256.32,
-        "poster_path": "/99PE8haWB7nLky627wJBsWn2awJ.jpg",
-        "release_date": "2021-12-28",
-        "title": "The Kindred",
-        "video": false,
-        "vote_average": 6.388,
-        "vote_count": 107
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/aINel9503ompOlGKn4sIVMg09Un.jpg",
-        "genre_ids": [
-          9648,
-          27,
-          53
-        ],
-        "id": 838209,
-        "original_language": "ko",
-        "original_title": "파묘",
-        "overview": "Um thriller oculto sobre a história de Ji Gwan e um xamã que o acompanha, a quem é pedido que mude a tumba oferecendo uma grande quantia em dinheiro.",
-        "popularity": 249.79,
-        "poster_path": "/aJLOmEwCLJIznN96m3t9IMz12or.jpg",
-        "release_date": "2024-02-22",
-        "title": "Exhuma",
-        "video": false,
-        "vote_average": 8.34,
-        "vote_count": 25
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/oijKQd7jcaAwq3aLoUiGo1abeV3.jpg",
-        "genre_ids": [
-          53,
-          27,
-          878
-        ],
-        "id": 949697,
-        "original_language": "th",
-        "original_title": "The One Hundred",
-        "overview": "",
-        "popularity": 216.181,
-        "poster_path": "/grS4g94cGJ6DeI2DZpi37uJhucY.jpg",
-        "release_date": "2022-10-06",
-        "title": "The One Hundred",
-        "video": false,
-        "vote_average": 5.182,
-        "vote_count": 11
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/oK29TJvtWzzYFWWPBq1RGfb8FMS.jpg",
-        "genre_ids": [
-          27,
-          878
-        ],
-        "id": 1207413,
-        "original_language": "es",
-        "original_title": "Dark Parasite",
-        "overview": "",
-        "popularity": 206.221,
-        "poster_path": "/hmfVO0q2LCsu2sTOe4KjH1aU5tG.jpg",
-        "release_date": "2023-10-25",
-        "title": "Dark Parasite",
-        "video": false,
-        "vote_average": 6.5,
-        "vote_count": 6
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/rmV6gnPC9LqNWOKzwd8jQe8Ljcw.jpg",
-        "genre_ids": [
-          27
-        ],
-        "id": 1196646,
-        "original_language": "en",
-        "original_title": "Camp Pleasant Lake",
-        "overview": "",
-        "popularity": 175.056,
-        "poster_path": "/vO4ok0SkjbTfLCICxx0uMzOBoEJ.jpg",
-        "release_date": "2024-02-27",
-        "title": "Camp Pleasant Lake",
-        "video": false,
-        "vote_average": 5.8,
-        "vote_count": 8
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/5mzr6JZbrqnqD8rCEvPhuCE5Fw2.jpg",
-        "genre_ids": [
-          28,
-          878,
-          27
-        ],
-        "id": 615656,
-        "original_language": "en",
-        "original_title": "Meg 2: The Trench",
-        "overview": "Um mergulho exploratório nas profundezas do oceano de uma ousada equipe de pesquisa se transforma em caos quando uma operação de mineração malévola ameaça sua missão e os força a uma batalha de alto risco pela sobrevivência.",
-        "popularity": 171.16,
-        "poster_path": "/klGKGITBYYyTiHrph1VDSgGULOR.jpg",
-        "release_date": "2023-08-02",
-        "title": "Megatubarão 2",
-        "video": false,
-        "vote_average": 6.606,
-        "vote_count": 3011
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/spsQPNKFwrvpFs7qyQz24Oh0Mhc.jpg",
-        "genre_ids": [
-          27,
-          53
-        ],
-        "id": 823491,
-        "original_language": "en",
-        "original_title": "Out of Darkness",
-        "overview": "Grupo de primeiros humanos se une em busca de uma nova terra. Precisam enfrentar um ser místico e malévolo que os está caçando.",
-        "popularity": 169.206,
-        "poster_path": "/fRT4GwQygR2ejgLpo8orADfO0Xm.jpg",
-        "release_date": "2024-02-09",
-        "title": "Out of Darkness",
-        "video": false,
-        "vote_average": 5.2,
-        "vote_count": 20
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/q6y5cjHFiFBEb7ILYrEllOiC4ww.jpg",
-        "genre_ids": [
-          27,
-          18
-        ],
-        "id": 880100,
-        "original_language": "en",
-        "original_title": "Fear",
-        "overview": "",
-        "popularity": 158.671,
-        "poster_path": "/asCLy4s7HYP3zSRlLP4Qgme5L0A.jpg",
-        "release_date": "2023-01-27",
-        "title": "Fear",
-        "video": false,
-        "vote_average": 5.725,
-        "vote_count": 40
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/27jtaS1oCiLK5Y7P6iOXG2yj1Nc.jpg",
-        "genre_ids": [
-          27,
-          9648
-        ],
-        "id": 968051,
-        "original_language": "en",
-        "original_title": "The Nun II",
-        "overview": "Quatro anos após os acontecimentos na abadia de St. Carta, a Irmã Irene (Taissa Farmiga) regressa mais uma vez e depara-se com a força demoníaca de Valak, a Freira (Bonnie Aarons).",
-        "popularity": 156.662,
-        "poster_path": "/omV2IW2OlFTSw6Hih13hz6lFdvP.jpg",
-        "release_date": "2023-09-06",
-        "title": "A Freira 2",
-        "video": false,
-        "vote_average": 6.824,
-        "vote_count": 1743
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/loeggqqCjQFFEVEixbO3UJ7df9v.jpg",
-        "genre_ids": [
-          27,
-          878
-        ],
-        "id": 1161663,
-        "original_language": "en",
-        "original_title": "Ghost Project",
-        "overview": "Três jovens programadores encontram uma tecnologia que havia sido criada para detectar presenças sobrenaturais, porém, o projeto estava abandonado. Juntos, eles usam a tecnologia para criar um aplicativo para o smartphone. Só que, ao usar o app, o trio acaba mexendo com o que não deveriam.",
-        "popularity": 150.62,
-        "poster_path": "/5OnTlcjY4e0WhWqTOuGFYXmkFKJ.jpg",
-        "release_date": "2023-08-07",
-        "title": "Projeto Fantasma",
-        "video": false,
-        "vote_average": 6.875,
-        "vote_count": 16
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/7NRGAtu8E4343NSKwhkgmVRDINw.jpg",
-        "genre_ids": [
-          27,
-          9648
-        ],
-        "id": 507089,
-        "original_language": "en",
-        "original_title": "Five Nights at Freddy's",
-        "overview": "Enquanto passa sua primeira noite no trabalho, um problemático guarda de segurança da Pizzaria Freddy Fazbear logo percebe que não será uma tarefa fácil sobreviver ao seu primeiro turno.",
-        "popularity": 144.383,
-        "poster_path": "/1yUbmAiw2cUSpyXNIaiST7JzCtG.jpg",
-        "release_date": "2023-10-25",
-        "title": "Five Nights at Freddy's - O Pesadelo Sem Fim",
-        "video": false,
-        "vote_average": 7.657,
-        "vote_count": 3470
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/n2bmFKv52Kpm1dguOGdn80vduK.jpg",
-        "genre_ids": [
-          27,
-          9648,
-          53
-        ],
-        "id": 1125311,
-        "original_language": "en",
-        "original_title": "Imaginary",
-        "overview": "Uma mulher retorna à casa onde cresceu para descobrir que o amigo imaginário que ela deixou para trás é muito real e infeliz por ter sido abandonado.",
-        "popularity": 139.936,
-        "poster_path": "/vbgI9lYJPtYrbPdwjtyuN2wUBKJ.jpg",
-        "release_date": "2024-03-06",
-        "title": "Imaginário: Brinquedo Diabólico",
-        "video": false,
-        "vote_average": 5.382,
-        "vote_count": 55
-      },
-      {
-        "adult": false,
-        "backdrop_path": "/aQCCpAIdWAp6wyFgjMry4okwrZo.jpg",
-        "genre_ids": [
-          27,
-          53
-        ],
-        "id": 138843,
-        "original_language": "en",
-        "original_title": "The Conjuring",
-        "overview": "Harrisville, Rhode Island, Estados Unidos, 1968. Os investigadores paranormais Ed e Lorraine Warren trabalham para ajudar uma família aterrorizada por uma presença sombria em sua fazenda. Forçados a confrontar uma entidade poderosa, os Warrens se vêem presos no caso mais aterrorizante de suas vidas. Baseado numa história real.",
-        "popularity": 136.051,
-        "poster_path": "/1NxHKZW5DPbUFtbF3MxbdSyxRqU.jpg",
-        "release_date": "2013-07-18",
-        "title": "Invocação do Mal",
-        "video": false,
-        "vote_average": 7.541,
-        "vote_count": 11020
-      }
-    ],
-    "total_pages": 2414,
-    "total_results": 48276
-  };
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        35,
+        10751
+      ],
+      "id": 1011985,
+      "original_language": "en",
+      "original_title": "Kung Fu Panda 4",
+      "overview": "Po está prestes a se tornar o novo líder espiritual do Vale da Paz, mas antes que possa fazer isso, ele deve encontrar um sucessor para se tornar o novo Dragão Guerreiro.  Ele parece encontrar uma em Zhen, uma raposa com muitas habilidades promissoras, mas que não gosta muito da ideia de Po treiná-la.",
+      "popularity": 4028.167,
+      "poster_path": "https://image.tmdb.org/t/p/original/aNK6MA5EApIo0UJE7ZWSYcZBJKy.jpg",
+      "release_date": "2024-03-02",
+      "title": "Kung Fu Panda 4",
+      "video": false,
+      "vote_average": 6.937,
+      "vote_count": 386
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/yyFc8Iclt2jxPmLztbP617xXllT.jpg",
+      "genre_ids": [
+        35,
+        10751,
+        14
+      ],
+      "id": 787699,
+      "original_language": "en",
+      "original_title": "Wonka",
+      "overview": "Antes de se tornar a mente brilhante por trás da maior fábrica de chocolate do mundo, Willy precisou enfrentar vários obstáculos. Cheio de ideias e determinado a mudar o mundo, o jovem Wonka embarca em uma aventura para espalhar alegria através de seu delecioso chocolate.",
+      "popularity": 604.239,
+      "poster_path": "https://image.tmdb.org/t/p/original/uQWEomz2wLoijrvoFaJt2gUMXRu.jpg",
+      "release_date": "2023-12-06",
+      "title": "Wonka",
+      "video": false,
+      "vote_average": 7.213,
+      "vote_count": 2680
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/3IoSYT0gnuImnZ73rqYySJnmefA.jpg",
+      "genre_ids": [
+        14,
+        12,
+        35
+      ],
+      "id": 967847,
+      "original_language": "en",
+      "original_title": "Ghostbusters: Frozen Empire",
+      "overview": "Nesta sequência da franquia Ghostbusters, a família Spengler retorna para onde tudo começou: a famosa estação de bombeiros em Nova York. Eles pretendem se unir com os caça-fantasmas originais que desenvolveram um laboratório ultra secreto de pesquisa para levar a caça aos fantasmas a outro nível, mas quando a descoberta de um artefato antigo libera uma grande força do mal, os Ghostbusters das duas gerações precisam juntar as forças para proteger suas casas e salvar o mundo de uma segunda Era do Gelo.",
+      "popularity": 498.697,
+      "poster_path": "https://image.tmdb.org/t/p/original/k7tbRCAsDZuefyL632iwMmIAlpw.jpg",
+      "release_date": "2024-03-20",
+      "title": "Ghostbusters: Apocalipse de Gelo",
+      "video": false,
+      "vote_average": 6.821,
+      "vote_count": 112
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/9n2tJBplPbgR2ca05hS5CKXwP2c.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        12,
+        14,
+        35
+      ],
+      "id": 502356,
+      "original_language": "en",
+      "original_title": "The Super Mario Bros. Movie",
+      "overview": "Os irmãos Mario e Luigi, de ascendência italiana, vivem em Brooklyn (Nova Iorque), onde trabalham como canalizadores. Certo dia, durante um serviço de reparação de uma conduta de água, são sugados por um tubo e transportados para o Reino Cogumelo, um universo paralelo governado pela Princesa Peach. Sem saber do paradeiro do irmão, Mario vai ter de aprender a sobreviver naquele lugar, adquirindo capacidades bizarras mas que serão grandes mais-valias para destruir os planos de Bowser, um verdadeiro vilão que tenciona dominar o mundo.",
+      "popularity": 296.774,
+      "poster_path": "https://image.tmdb.org/t/p/original/ktU3MIeZtuEVRlMftgp0HMX2WR7.jpg",
+      "release_date": "2023-04-05",
+      "title": "Super Mario Bros. O Filme",
+      "video": false,
+      "vote_average": 7.683,
+      "vote_count": 8225
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/ctMserH8g2SeOAnCw5gFjdQF8mo.jpg",
+      "genre_ids": [
+        35,
+        12
+      ],
+      "id": 346698,
+      "original_language": "en",
+      "original_title": "Barbie",
+      "overview": "No mundo mágico das Barbies, \"Barbieland\", uma das bonecas começa a perceber que não se encaixa como as outras. Depois de ser expulsa, ela parte para uma aventura no \"mundo real\", onde descobre que a beleza está no interior de cada um.",
+      "popularity": 252.99,
+      "poster_path": "https://image.tmdb.org/t/p/original/yRRuLt7sMBEQkHsd1S3KaaofZn7.jpg",
+      "release_date": "2023-07-19",
+      "title": "Barbie",
+      "video": false,
+      "vote_average": 7.099,
+      "vote_count": 7855
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/jr8tSoJGj33XLgFBy6lmZhpGQNu.jpg",
+      "genre_ids": [
+        16,
+        12,
+        14,
+        35,
+        28,
+        10751
+      ],
+      "id": 315162,
+      "original_language": "en",
+      "original_title": "Puss in Boots: The Last Wish",
+      "overview": "O Gato de Botas descobre que sua paixão pela aventura cobrou seu preço: ele queimou oito de suas nove vidas, deixando-o com apenas uma vida restante. Gato parte em uma jornada épica para encontrar o mítico Último Desejo e restaurar suas nove vidas.",
+      "popularity": 228.511,
+      "poster_path": "https://image.tmdb.org/t/p/original/atJxZfCaQ7kXRFSfbm8cqAKkns7.jpg",
+      "release_date": "2022-12-07",
+      "title": "Gato de Botas 2: O Último Pedido",
+      "video": false,
+      "vote_average": 8.242,
+      "vote_count": 7131
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/auXrHU6O17n9Tz11SHReoorjrU6.jpg",
+      "genre_ids": [
+        16,
+        35,
+        10751
+      ],
+      "id": 1075794,
+      "original_language": "en",
+      "original_title": "Leo",
+      "overview": "Uma comédia musical que narra o último ano do Ensino Fundamental pelos olhos do lagarto Leo, o bichinho de estimação da sala.",
+      "popularity": 199.999,
+      "poster_path": "https://image.tmdb.org/t/p/original/pD6sL4vntUOXHmuvJPPZAgvyfd9.jpg",
+      "release_date": "2023-11-17",
+      "title": "Leo",
+      "video": false,
+      "vote_average": 7.507,
+      "vote_count": 1012
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/en971MEXui9diirXlogOrPKmsEn.jpg",
+      "genre_ids": [
+        28,
+        12,
+        35
+      ],
+      "id": 293660,
+      "original_language": "en",
+      "original_title": "Deadpool",
+      "overview": "Baseado no anti-herói não convencional da Marvel Comics, Deadpool conta a história da origem do ex-agente das Forças Especiais que se tornou o mercenário Wade Wilson. Depois de ser submetido a um desonesto experimento que o deixa com poderes de cura acelerada, Wade adota o alter ego de Deadpool. Armado com suas novas habilidades e um senso de humor negro e distorcido, Deadpool persegue o homem que quase destruiu sua vida.",
+      "popularity": 175.543,
+      "poster_path": "https://image.tmdb.org/t/p/original/fSRb7vyIP8rQpL0I47P3qUsEKX3.jpg",
+      "release_date": "2016-02-09",
+      "title": "Deadpool",
+      "video": false,
+      "vote_average": 7.61,
+      "vote_count": 29645
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/sRvXNDItGlWCqtO3j6wks52FmbD.jpg",
+      "genre_ids": [
+        16,
+        35,
+        14,
+        12,
+        10751
+      ],
+      "id": 808,
+      "original_language": "en",
+      "original_title": "Shrek",
+      "overview": "Em um pântano distante vive Shrek, um ogro solitário que vê, sem mais nem menos, sua vida ser invadida por uma série de personagens de contos de fada, como três ratos cegos, um grande e malvado lobo e ainda três porcos que não têm um lugar onde morar. Todos eles foram expulsos de seus lares pelo maligno Lorde Farquaad. Determinado a recuperar a tranquilidade de antes, Shrek resolve encontrar Farquaad e com ele faz um acordo: todos os personagens poderão retornar aos seus lares se ele e seu amigo Burro resgatarem uma bela princesa, que é prisioneira de um dragão. Porém, quando Shrek e o Burro enfim conseguem resgatar a princesa logo eles descobrem que seus problemas estão apenas começando.",
+      "popularity": 140.629,
+      "poster_path": "https://image.tmdb.org/t/p/original/dyhaB19AICF7TO7CK2aD6KfymnQ.jpg",
+      "release_date": "2001-05-18",
+      "title": "Shrek",
+      "video": false,
+      "vote_average": 7.738,
+      "vote_count": 16381
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/7Nwnmyzrtd0FkcRyPqmdzTPppQa.jpg",
+      "genre_ids": [
+        80,
+        18,
+        35
+      ],
+      "id": 106646,
+      "original_language": "en",
+      "original_title": "The Wolf of Wall Street",
+      "overview": "Durante seis meses, Jordan Belfort (Leonardo DiCaprio) trabalhou duro em uma corretora de Wall Street, seguindo os ensinamentos de seu mentor Mark Hanna (Matthew McConaughey). Quando finalmente consegue ser contratado como corretor da firma, acontece o Black Monday, que faz com que as bolsas de vários países caiam repentinamente. Sem emprego e bastante ambicioso, ele acaba trabalhando para uma empresa de fundo de quintal que lida com papéis de baixo valor, que não estão na bolsa de valores. É lá que Belfort tem a idéia de montar uma empresa focada neste tipo de negócio, cujas vendas são de valores mais baixos mas, em compensação, o retorno para o corretor é bem mais vantajoso. Ao lado de Donnie (Jonah Hill) e outros amigos dos velhos tempos, ele cria a Stratton Oakmont, uma empresa que faz com que todos enriqueçam rapidamente e, também, levem uma vida dedicada ao prazer.",
+      "popularity": 101.304,
+      "poster_path": "https://image.tmdb.org/t/p/original/esJTXTdj4JZDyP5LUI1Fq3kyNda.jpg",
+      "release_date": "2013-12-25",
+      "title": "O Lobo de Wall Street",
+      "video": false,
+      "vote_average": 8.035,
+      "vote_count": 23062
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/jTx4XlVsLJkDwbEQkFYwpApD556.jpg",
+      "genre_ids": [
+        16,
+        10751,
+        12,
+        35
+      ],
+      "id": 49013,
+      "original_language": "en",
+      "original_title": "Cars 2",
+      "overview": "O astro das corridas, Relâmpago McQueen, e o carro-guincho, Mate, viajam para disputar o primeiro Grand Prix Mundial, que irá revelar o carro mais veloz do planeta. Nessa jornada imperdível, Mate se envolve com um grupo de espionagem e vive grandes aventuras com seus amigos.",
+      "popularity": 76.124,
+      "poster_path": "https://image.tmdb.org/t/p/original/fIKaabvE40T39nOIngcZPcPJeYe.jpg",
+      "release_date": "2011-06-11",
+      "title": "Carros 2",
+      "video": false,
+      "vote_average": 6.105,
+      "vote_count": 7410
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/nbq3LfgLXnL5ixZ1Q74jTJmhmTS.jpg",
+      "genre_ids": [
+        35,
+        28,
+        878,
+        12
+      ],
+      "id": 533535,
+      "original_language": "en",
+      "original_title": "Deadpool & Wolverine",
+      "overview": "O irresponsável anti-herói Deadpool mudará a história do Universo Cinematográfico Marvel com Wolverine.",
+      "popularity": 119.002,
+      "poster_path": "https://image.tmdb.org/t/p/original/xq4v7JE8niZ75OYYPDGNn6Gzpyt.jpg",
+      "release_date": "2024-07-24",
+      "title": "Deadpool & Wolverine",
+      "video": false,
+      "vote_average": 0.0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/2q3B90h2hZ6xJTvna9CIFDNaIr4.jpg",
+      "genre_ids": [
+        16,
+        35
+      ],
+      "id": 9473,
+      "original_language": "en",
+      "original_title": "South Park: Bigger, Longer & Uncut",
+      "overview": "Fama, autoridade, música, militarismo, raça, sexo e religião, esses são alguns dos ingredientes usados pelos criadores de South Park, nesse longa metragem que mergulha os Estados Unidos numa guerra com o Canadá. Tudo começa quando um grupo de estudantes de South Park, conseguem assistir um filme canadense proibido para menores. Os pais das crianças ficam chocados com o efeito que o filme causa na mente de seus inocentes filhos e exigem que uma pequena cidade serrana, no Colorado, os ouça. Talvez você possa se ofender, ou quem sabe esse filme possa fazer você rir mais do que qualquer outra comédia recente.",
+      "popularity": 87.624,
+      "poster_path": "https://image.tmdb.org/t/p/original/16ECNyTfEOfE49gFdrutZfGFd9x.jpg",
+      "release_date": "1999-06-30",
+      "title": "South Park: Maior, Melhor e Sem Cortes",
+      "video": false,
+      "vote_average": 7.3,
+      "vote_count": 2556
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/mXBDQ9n2osF0BqBjXY9JDyadyRb.jpg",
+      "genre_ids": [
+        35,
+        18,
+        14
+      ],
+      "id": 9339,
+      "original_language": "en",
+      "original_title": "Click",
+      "overview": "Um arquiteto casado e com filhos está cada vez mais frustrado por passar a maior parte de seu tempo trabalhando. Um dia, ele encontra um inventor excêntrico que lhe dá um controle remoto universal, com capacidade de acelerar o tempo.",
+      "popularity": 86.335,
+      "poster_path": "https://image.tmdb.org/t/p/original/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg",
+      "release_date": "2006-06-23",
+      "title": "Click",
+      "video": false,
+      "vote_average": 6.282,
+      "vote_count": 6757
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/7JhsJxNmdW0y4IyNrHy10cECrAz.jpg",
+      "genre_ids": [
+        35
+      ],
+      "id": 109418,
+      "original_language": "en",
+      "original_title": "Grown Ups 2",
+      "overview": "Lenny Feder e sua família se mudam para sua cidade natal para ficar perto dos amigos, mas acabam tendo que enfrentar alguns fantasmas do passado, como a covardia diante de valentões e o famigerado bullying na escola.",
+      "popularity": 85.164,
+      "poster_path": "https://image.tmdb.org/t/p/original/vaXiEVLD0fGSMU801Zftw1csPPm.jpg",
+      "release_date": "2013-07-11",
+      "title": "Gente Grande 2",
+      "video": false,
+      "vote_average": 6.1,
+      "vote_count": 4099
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/y2Ca1neKke2mGPMaHzlCNDVZqsK.jpg",
+      "genre_ids": [
+        28,
+        35,
+        53
+      ],
+      "id": 718930,
+      "original_language": "en",
+      "original_title": "Bullet Train",
+      "overview": "5 assassinos da máfia japonesa se encontram à bordo de um trem-bala que faz o trajeto entre as cidades Tóquio até Morioka com poucas paradas. Assim, a tensão entre esse grupo de habilidosos e mortais profissionais só aumentam quando eles descobrem a presença um do outro e começam a entrar em conflito em si.",
+      "popularity": 80.732,
+      "poster_path": "https://image.tmdb.org/t/p/original/77zENVKgbc4bhmlLfHRUbVZ99N5.jpg",
+      "release_date": "2022-08-03",
+      "title": "Trem-Bala",
+      "video": false,
+      "vote_average": 7.481,
+      "vote_count": 5456
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/di47xqYMCYpjqwnqNlO17X5qXMX.jpg",
+      "genre_ids": [
+        35,
+        80
+      ],
+      "id": 12153,
+      "original_language": "en",
+      "original_title": "White Chicks",
+      "overview": "O que acontece quando dois atrapalhados agentes do FBI se disfarçam de princesas mega-ricas para se infiltrarem na alta sociedade? O resultado é situações extremamente engraçadas e diversão total ao ver estes dois irmãos azarados transformando-se em duas senhoritas refinadas e com estilo!",
+      "popularity": 73.55,
+      "poster_path": "https://image.tmdb.org/t/p/original/aJZOcorpgloDLkPP6ED0t9sXjNu.jpg",
+      "release_date": "2004-06-23",
+      "title": "As Branquelas",
+      "video": false,
+      "vote_average": 6.945,
+      "vote_count": 3710
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/vyxkDD95jhsFz5T0jo9P87IX3V.jpg",
+      "genre_ids": [
+        12,
+        28,
+        16,
+        18,
+        35,
+        10751,
+        14,
+        878
+      ],
+      "id": 18095,
+      "original_language": "ja",
+      "original_title": "ドラゴンボールＧＴ 悟空外伝！ 勇気の証しは四星球",
+      "overview": "Essa fase do grande sucesso Dragon Ball GT conta a história de Goku Jr. Um garoto que se parecia com o goku que vivia com a sua avó Pan e um dia a avó dele ficou doente e teve que ficar no hospital de Satan City. Goku achou que ela fosse morrer e foi em busca da esfera do dragão de 4 estrelas na montanha paozu para poder fazer um desejo para que a sua avó não morresse então ele parte em uma jornada até a montanha paozu e descobre que tem muito poder assim como Goku, o guerreiro corajoso.",
+      "popularity": 77.948,
+      "poster_path": "https://image.tmdb.org/t/p/original/2u09FiAuyMdS6EzOi7FH0ULciys.jpg",
+      "release_date": "1997-03-26",
+      "title": "Dragon Ball GT: O Legado de um Herói",
+      "video": false,
+      "vote_average": 6.8,
+      "vote_count": 309
+    },
+    {
+      "adult": false,
+      "backdrop_path": "https://image.tmdb.org/t/p/original/x5ALlgbSQoK5NMiHWxgy3sOKrGU.jpg",
+      "genre_ids": [
+        28,
+        35,
+        80,
+        53
+      ],
+      "id": 9737,
+      "original_language": "en",
+      "original_title": "Bad Boys",
+      "overview": "Um carregamento de heroína confiscada avaliada em um milhão de dólares foi simplesmente roubado do depósito da polícia. O sumiço das dorgas pode destruir as carreiras dos detetives Mike Lawrey e Marcus Burnett e acabar com a divisão de narcóticos do Departamento de Polícia de Miami. Quando as investigações ameaçam os traficantes e eles raptam a única testemunha do caso – uma bela informante da polícia que se torna amiga dos Bad Boys – as coisas se tornam pessoais!",
+      "popularity": 78.684,
+      "poster_path": "https://image.tmdb.org/t/p/original/sgOKUBTjMOdmgdtCQ50E1R5UaaF.jpg",
+      "release_date": "1995-04-07",
+      "title": "Os Bad Boys",
+      "video": false,
+      "vote_average": 6.791,
+      "vote_count": 5936
+    },
+
+  ]
+};
 
 export { MOVIES_CARDS, MOVIES_DETAILS };
