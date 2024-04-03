@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MOVIES_CARDS } from '../../../dataset/dataset';
 
 @Component({
   selector: 'app-home',

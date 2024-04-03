@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DetailsComponent } from './pages/details/details.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-import { CardComponent } from './components/card/card.component';
+import { CardsListComponent } from './components/cards-list/cards-list.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { CardComponent } from './components/card/card.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CardComponent,
+    CardsListComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
