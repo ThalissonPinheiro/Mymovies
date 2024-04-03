@@ -15,6 +15,7 @@ import { RouterLink } from '@angular/router';
 })
 export class CardComponent {
   @Input() movieName: string = '';
+  @Input() movieImg: string = '';
 
   constructor() {}
 }
