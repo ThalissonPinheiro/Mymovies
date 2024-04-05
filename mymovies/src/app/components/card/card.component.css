@@ -1,0 +1,34 @@
+.teste {
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.title {
+    margin-top: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.container:hover .title {
+    opacity: 1; 
+}
+
+.container:hover img {
+    transform: scale(1.1); 
+}
+
+.container img {
+    transition: transform 0.2s ease; 
+}
