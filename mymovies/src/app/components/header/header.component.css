@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    margin-top: 75px;
+    color: white;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #D8315B;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px; 
+}
+
+.tamanho {
+    border-radius: 10px;
+    width: 700px;
+    height: 30px;
+    margin-top: 70px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+}
+.tamanho:hover {
+    border-color: #D8315B;
+}
+
+.tamanho:focus {
+    border-color: #D8315B; 
+    outline: none;
+}
+
+.photo {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-right: 20px;
+}
