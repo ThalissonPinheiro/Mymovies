@@ -12,8 +12,6 @@ export class DetailsComponent {
   movies = RECOMENDADOS.results;
   movie: any;
 
-
-
   constructor(
     readonly dadosRota: ActivatedRoute
   ) {
@@ -29,3 +27,53 @@ export class DetailsComponent {
   }
 
 }
+
+/*
+  TENTEI ASSIM PROFESSOR
+
+export class DetailsComponent implements OnInit {
+  movieName: string = '';
+  type: string = '';
+
+  movies: any[] = [];
+
+  movie: any;
+
+  constructor(
+    readonly dadosRota: ActivatedRoute
+  ) {}
+
+  ngOnInit() {
+    this.movieName = this.dadosRota.snapshot.params['movieName'];
+    this.type = this.dadosRota.snapshot.params['type'];
+    this.loadMovieDetails(); 
+  }
+
+  loadMovieDetails() {
+    switch (this.type) {
+      case 'RECOMENDADOS':
+        this.movies = RECOMENDADOS.results;
+        break;
+      case 'TERIR':
+        this.movies = TERIR.results;
+        break;
+      case 'ANIMACAO':
+        this.movies = ANIMACAO.results;
+        break;
+      case 'ROMANTICA':
+        this.movies = ROMANTICA.results;
+        break;
+      case 'BESTEIROL':
+        this.movies = BESTEIROL.results;
+        break;
+      default:
+        this.movies = [];
+        break;
+     }
+
+    this.movie = this.movies.find(filme => filme.title === this.movieName);
+
+    console.log(this.movie);
+  }
+}
+*/
