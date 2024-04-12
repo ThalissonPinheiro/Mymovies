@@ -6,7 +6,12 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { DetailsComponent } from './pages/details/details.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
-import { CardComponent } from './components/card/card.component';
+import { CardsListComponent } from './components/cards-list/cards-list.component';
+import { HeaderComponent } from './components/header/header.component';
+import { AnimacaoComponent } from './pages/animacao/animacao.component';
+import { RomanticaComponent } from './pages/romantica/romantica.component';
+import { BesteirolComponent } from './pages/besteirol/besteirol.component';
+import { TerirComponent } from './pages/terir/terir.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { CardComponent } from './components/card/card.component';
     HomeComponent,
     DetailsComponent,
     PageNotFoundComponent,
+    AnimacaoComponent,
+    RomanticaComponent,
+    BesteirolComponent,
+    TerirComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CardComponent,
+    CardsListComponent,
+    HeaderComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

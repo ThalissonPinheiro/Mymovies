@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TERIR, ANIMACAO, RECOMENDADOS, ROMANTICA, BESTEIROL } from '../../../dataset/dataset';
 
 @Component({
   selector: 'app-home',

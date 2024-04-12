@@ -1,1 +1,6 @@
-<p>cards-list works!</p>
+<div *ngFor="let m of movieList">
+    <app-card
+    [movieName]="m.title"
+    [movieImg]="m.poster_path"
+  ></app-card>
+</div>
