@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MOVIES_CARDS } from '../../../dataset/dataset';
+import { TERIR, ANIMACAO, RECOMENDADOS, ROMANTICA, BESTEIROL } from '../../../dataset/dataset';
 
 @Component({
   selector: 'app-home',

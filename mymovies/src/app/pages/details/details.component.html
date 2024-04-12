@@ -1,3 +1,17 @@
-<p>details works!</p>
-<p>Filme: {{ movie.title }}</p>
-<p>Título original: {{ movie.original_title }}</p>
+<div class="col-xs-12">
+    <div class="col-xs-12">
+        <h3 class="vie"> <br>👁{{ movie.popularity }}</h3>
+        <h3 class="star">⭐{{ movie.vote_average }}</h3>
+    </div>
+    <img src="{{ movie.backdrop_path }}" class="func">
+    <div class="overlay"></div>
+    <div class="container teste b " style="width: 17rem;">
+        <h5>{{ movie.release_date }}</h5>
+        <img src="{{ movie.poster_path }}" class="card-img-top">
+        <h4>{{ movie.title }}</h4>
+    </div>
+    <div class="sub">
+        <h4>Sinopse</h4>
+        <p>{{ movie.overview }}</p>
+    </div>
+</div>

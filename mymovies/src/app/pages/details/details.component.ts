@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { MOVIES_DETAILS } from 'src/dataset/dataset';
+import { TERIR, ANIMACAO, RECOMENDADOS, ROMANTICA, BESTEIROL } from 'src/dataset/dataset';
 
 @Component({
   selector: 'app-details',
@@ -9,7 +9,7 @@ import { MOVIES_DETAILS } from 'src/dataset/dataset';
 })
 export class DetailsComponent {
   movieName: string = '';
-  movies = MOVIES_DETAILS.results;
+  movies = RECOMENDADOS.results;
   movie: any;
 
 

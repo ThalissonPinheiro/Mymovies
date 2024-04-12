@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from '../card/card.component';
-import { MOVIES_CARDS } from 'src/dataset/dataset';
+import { TERIR, ANIMACAO, RECOMENDADOS, ROMANTICA, BESTEIROL } from 'src/dataset/dataset';
 
 @Component({
   selector: 'app-cards-list',
@@ -14,5 +14,9 @@ import { MOVIES_CARDS } from 'src/dataset/dataset';
   styleUrls: ['./cards-list.component.css']
 })
 export class CardsListComponent {
-  MOVIES = MOVIES_CARDS.results;
+  RECOMENDADOS_MOVIES = RECOMENDADOS.results;
+  TERIR_MOVIES = TERIR.results;
+  ANIMACAO_MOVIES = ANIMACAO.results;
+  ROMANTICA_MOVIES = ROMANTICA.results;
+  BESTEIROL_MOVIES = BESTEIROL.results;
 }
