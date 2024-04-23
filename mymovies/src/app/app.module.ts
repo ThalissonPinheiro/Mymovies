@@ -12,6 +12,8 @@ import { AnimacaoComponent } from './pages/animacao/animacao.component';
 import { RomanticaComponent } from './pages/romantica/romantica.component';
 import { BesteirolComponent } from './pages/besteirol/besteirol.component';
 import { TerirComponent } from './pages/terir/terir.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ThemoviedbService } from './services/themoviedb/themoviedb.service';
 
 @NgModule({
   declarations: [
@@ -29,8 +31,11 @@ import { TerirComponent } from './pages/terir/terir.component';
     AppRoutingModule,
     CardsListComponent,
     HeaderComponent,
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    ThemoviedbService,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
