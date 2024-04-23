@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ThemoviedbService } from './services/themoviedb/themoviedb.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mymovies';
+  constructor (
+    private readonly service:ThemoviedbService){
+      this.service.getMovies().subscribe({
+        next:(resp: any) => {
+          console.log(resp);
+        },
+        error:(error) => {
+          console.error(error);
+        }
+      })
+    }
+  
 }
