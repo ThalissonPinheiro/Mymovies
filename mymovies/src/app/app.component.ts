@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ThemoviedbService } from './services/themoviedb/themoviedb.service';
+import { Movie } from './models/movie';
 
 @Component({
   selector: 'app-root',
@@ -10,10 +11,10 @@ export class AppComponent {
   constructor (
     private readonly service:ThemoviedbService){
       this.service.getMovies().subscribe({
-        next:(resp: any) => {
-          console.log(resp);
+        next:(data: Movie[]) => {
+          console.log(data);
         },
-        error:(error) => {
+        error:(error: any) => {
           console.error(error);
         }
       })
