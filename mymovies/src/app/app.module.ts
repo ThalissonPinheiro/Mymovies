@@ -14,6 +14,7 @@ import { BesteirolComponent } from './pages/besteirol/besteirol.component';
 import { TerirComponent } from './pages/terir/terir.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ThemoviedbService } from './services/themoviedb/themoviedb.service';
+import { BuscargeneroService } from './services/buscargenero/buscargenero.service';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { ThemoviedbService } from './services/themoviedb/themoviedb.service';
   ],
   providers: [
     ThemoviedbService,
+    BuscargeneroService,
   ],
   bootstrap: [AppComponent]
 })
