@@ -1,7 +1,7 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardComponent } from '../card/card.component';
-import { TERIR, ANIMACAO, RECOMENDADOS, ROMANTICA, BESTEIROL } from 'src/dataset/dataset';
+import { Movie } from 'src/app/models/movie';
 
 @Component({
   selector: 'app-cards-list',
@@ -14,23 +14,10 @@ import { TERIR, ANIMACAO, RECOMENDADOS, ROMANTICA, BESTEIROL } from 'src/dataset
   styleUrls: ['./cards-list.component.css']
 })
 export class CardsListComponent {
-  movieName: string = '';
-  @Input() type: string = ''; 
+  @Input() movies: Movie[] = [];
 
-  get movieList(): any[] {
-    switch (this.type) {
-      case 'RECOMENDADOS':
-        return RECOMENDADOS.results;
-      case 'TERIR':
-        return TERIR.results;
-      case 'ANIMACAO':
-        return ANIMACAO.results;
-      case 'ROMANTICA':
-        return ROMANTICA.results;
-      case 'BESTEIROL':
-        return BESTEIROL.results;
-      default:
-        return [];
-    }
-  }
+  constructor() {}
+
+  ngOnInit(): void {}
+
 }
