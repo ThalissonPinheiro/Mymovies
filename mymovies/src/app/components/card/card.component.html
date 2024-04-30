@@ -1,8 +1,8 @@
 <div class="container teste" style="width: 17rem;">
-  <a [routerLink]="['/details', movieName]">
-  <h4 class="title">{{ movieName }}</h4>
+  <a [routerLink]="['/details', movie?.title]">
+  <h4 class="title">{{ movie?.title }}</h4>
 </a>
-  <a [routerLink]="['/details', movieName]">
-    <img src="{{ movieImg }}" class="card-img-top" alt="...">
+  <a [routerLink]="['/details', movie?.title]">
+    <img [src]="'https://image.tmdb.org/t/p/original' + movie?.poster_path" class="card-img-top" alt="...">
   </a>
 </div>
