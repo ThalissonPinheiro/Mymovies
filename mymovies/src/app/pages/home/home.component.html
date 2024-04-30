@@ -1,8 +1,16 @@
 <div class="fundo">
     <app-header></app-header>
 
-    <div class="space">
+            <div *ngIf="movies.length == 0" class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                  <span class="visually-hidden">Loading...</span>
+                  <h3>Carregando filmes</h3>
+                </div>
+              </div>
+
+
+    <div *ngIf="movies.length > 0" class="space">
         <h3>FILMES EM ALTA</h3>
-        <app-cards-list type="RECOMENDADOS" class="d-flex flex-wrap"></app-cards-list>
+        <app-cards-list [movies]="movies" class="d-flex flex-wrap"></app-cards-list>
     </div>
 </div>
