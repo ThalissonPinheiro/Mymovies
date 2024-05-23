@@ -7,18 +7,18 @@ import { Movie } from 'src/app/models/movie';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   movies: Movie[] = [];
 
   constructor(
-   private readonly service: ThemoviedbService
+    private readonly service: ThemoviedbService,
   ) { }
 
   ngOnInit() {
     setTimeout(() => {
       this.loadMovies();
     }, 5000);
-    }
+  }
 
   loadMovies(): void {
     this.service.getMovies().subscribe({
@@ -28,7 +28,6 @@ export class HomeComponent {
       error: (error) => {
         console.error(error);
       }
-  });
+    });
   }
-
-}
+  }
