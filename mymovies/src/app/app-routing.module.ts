@@ -45,6 +45,11 @@ const routes: Routes = [
     component: DetailsComponent
   },
   {
+    path: 'user',
+    title: 'MyMovies - Login',
+    loadChildren: () => import('./pages/user/user.module').then(m => m.UserModule)
+  },
+  {
     path: '**',
     title: 'Página não encontrada',
     component: PageNotFoundComponent

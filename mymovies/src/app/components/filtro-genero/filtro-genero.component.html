@@ -1,0 +1,7 @@
+<select class="form-select" aria-label="Escolha um genero">
+    <option disabled selected>Escolha um genero</option>
+    <option *ngFor="let gen of GENEROS"
+    [value]="gen.id">
+    {{ gen.label }}
+    </option>
+</select>
