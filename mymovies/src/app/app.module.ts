@@ -15,6 +15,7 @@ import { TerirComponent } from './pages/terir/terir.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ThemoviedbService } from './services/themoviedb/themoviedb.service';
 import { BuscargeneroService } from './services/buscargenero/buscargenero.service';
+import { APIMyMoviesService } from './services/api-my-movies/api-my-movies.service';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { BuscargeneroService } from './services/buscargenero/buscargenero.servic
   providers: [
     ThemoviedbService,
     BuscargeneroService,
+    APIMyMoviesService
   ],
   bootstrap: [AppComponent]
 })
