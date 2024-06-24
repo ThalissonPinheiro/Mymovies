@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -8,6 +8,13 @@ import { CommonModule } from '@angular/common';
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.css']
 })
-export class ListComponent {
+export class ListComponent implements OnInit{
+  @Input() favoritos: any = null;
 
+  constructor() {}
+
+  ngOnInit(): void {
+    console.log(this.favoritos);
+  }
+  
 }
