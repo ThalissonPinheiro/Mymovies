@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class ThemoviedbService {
-  private readonly URL_DISCOVER = `${environment.TMDB_URL}/discover/movie`;
+  private readonly URL_DISCOVER = `${environment.TMBD_URL}/discover/movie`;
 
   private readonly HEADERS = {
     Accept: 'application/json',

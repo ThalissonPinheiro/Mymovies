@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment.development';
   providedIn: 'root'
 })
 export class BuscargeneroService {
-  private readonly URL_GENRES = `${environment.TMDB_URL}/genre/movie/list?language=pt-BR`;
+  private readonly URL_GENRES = `${environment.TMBD_URL}/genre/movie/list?language=pt-BR`;
 
   private readonly HEADERS = {
     Accept: 'application/json',
